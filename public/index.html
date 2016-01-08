@@ -6,10 +6,13 @@
 	<!-- Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 	<!-- Links -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<!-- Navbar -->
@@ -75,21 +78,36 @@
 			<hr class="hr-work">
 			<div class="row">
 				<div class="col-sm-6 col-lg-offset-1 projects">
-					<a data-toggle="modal" data-target="#myModal"><img src="http://placehold.it/350x250" alt="work" class="img-responsive"></a>
+					<div class="box">
+						<a><img src="http://placehold.it/350x250" alt="work" class="img-responsive project-img"></a>
+						<div class="overlay img-responsive" data-toggle="modal" data-target="#myModal">
+						</div><!-- /.overlay -->
+					</div><!-- /.box -->
 				</div>
 				<div class="col-sm-5 projects">
-					<a data-toggle="modal" data-target="#myModal2"><img src="http://placehold.it/350x250" alt="work" class="img-responsive"></a>
+					<div class="box">
+						<a><img src="http://placehold.it/350x250" alt="work" class="img-responsive project-img"></a>
+						<div class="overlay img-responsive" data-toggle="modal" data-target="#myModal2">
+						</div><!-- /.overlay -->
+					</div><!-- /.box -->
 				</div>
 				<div class="col-sm-6 col-lg-offset-1 projects">
-					<a data-toggle="modal" data-target="#myModal3"><img src="http://placehold.it/350x250" alt="work" class="img-responsive"></a>
+					<div class="box">
+						<a><img src="http://placehold.it/350x250" alt="work" class="img-responsive project-img"></a>
+						<div class="overlay img-responsive" data-toggle="modal" data-target="#myModal3">
+						</div><!-- /.overlay -->
+					</div><!-- /.box -->
 				</div>
 				<div class="col-sm-5 projects">
-					<a data-toggle="modal" data-target="#myModal4"><img src="http://placehold.it/350x250" alt="work" class="img-responsive"></a>
+					<div class="box">
+						<a><img src="http://placehold.it/350x250" alt="work" class="img-responsive project-img"></a>
+						<div class="overlay img-responsive" data-toggle="modal" data-target="#myModal4">
+						</div><!-- /.overlay -->
+					</div><!-- /.box -->
 				</div><!-- /.projects -->
 			</div><!-- /.row -->
 		</div><!-- /.container-->
 	</div><!-- /.work -->
-
 		<!-- Work modal 1-->
 		<div class="modal fade" id="myModal">
 			<div class="modal-dialog">
@@ -195,11 +213,56 @@
 	<!-- SKILLS -->
 	<div class="skills">
 		<div class="container">
+			<h1 class="text-center">Skills</h1>
+			<hr>
+			<div class="row">
+				<div class="col-md-4">
+					<p>Bacon ipsum dolor amet beef ribs andouille chicken tenderloin. Pancetta chicken swine, short ribs rump doner meatball porchetta spare ribs ham. Shoulder fatback landjaeger pork belly short ribs rump frankfurter ground round chicken hamburger. Chuck tri-tip beef ribs picanha corned beef.</p>
+					<p>Reprehenderit pig velit tenderloin tongue in voluptate strip steak turducken salami minim chuck eiusmod hamburger irure. Kielbasa voluptate pastrami tail drumstick shankle corned beef chicken meatball tempor boudin salami.</p>
+				</div>
 			
-		</div>
-	</div>
+				<div id="dev-icon">
+					<div class="col-sm-2 col-xs-2">
+						<i class="devicon-html5-plain dev-icon"></i>
+					</div><!-- /.col -->
+					<div class="col-sm-2 col-xs-2">
+						<i class="devicon-css3-plain dev-icon"></i>
+					</div><!-- /.col -->
+				</div>
+				<div id="dev-div">
+					<div class="col-sm-2 col-xs-2">
+						<i class="devicon-git-plain dev-icon"></i>
+					</div><!-- /.col -->
+					<div class="col-sm-2 col-xs-2">
+						<i class="devicon-bootstrap-plain dev-icon"></i>
+					</div><!-- /.col -->
+				</div>
+				<div  id="dev-div">
+					<div class="col-sm-2 col-xs-2">
+						<i class="devicon-jquery-plain dev-icon"></i>
+					</div><!-- /.col -->
+					<div class="col-sm-2 col-xs-2">
+						<i class="devicon-photoshop-plain dev-icon"></i>
+					</div><!-- /.col -->
+				</div>	
+			</div><!-- /.row-->
+		</div><!-- /.container -->
+	</div><!-- /.skills -->
 	<!-- SKILLS END -->
 
+	<!-- CONTACT -->
+	<div class="contact">
+		<div class="container">
+			<h1 class="text-center">Contact</h1>
+			<hr>
+			<div class="row">
+				<div class="col-md-4">
+					
+				</div><!-- /.column -->
+			</div><!-- /.row-->
+		</div><!-- /.container -->
+	</div><!-- /.contact -->
+	<!-- END CONTACT -->
 	<!-- Scripts -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
