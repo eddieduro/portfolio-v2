@@ -233,12 +233,40 @@ WORK
 CONTACT
 ==============*/
 .contact {
-	background-color: #464947;	
+	background-color: #464947;
+	height: 250px;	
+	width: 100%;
 }
 
 .contact h1 {
 	color: #34b568;
 }
+
+.social-media {
+	font-size: 40pt;
+	padding-left: 20%;
+	padding-top: 20px;
+	cursor: pointer;
+}
+
+.social-link {
+	color: #333;
+}
+
+#twitter:hover {
+	color: #00aced;
+}
+#github:hover {
+	color: #7b0099;
+}
+#facebook:hover {
+	color: #3b5998;
+}
+#linkedin:hover {
+	color: #007bb6;
+}
+
+
 /*=========
 MEDIA QUERY
 ==========*/
