@@ -109,7 +109,7 @@ HERO
 ============*/
 .hero {
 	position: relative;
-	background:	url("https://images.unsplash.com/photo-1445285303476-2f3b16d67b7a?crop=entropy&fit=crop&fm=jpg&h=725&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1050") center no-repeat;
+	background:	url("/images/hero-img.jpeg") center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 600px;
