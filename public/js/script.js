@@ -13,4 +13,11 @@ $(document).ready(function() {
       $('.navbar-brand').removeClass('small');
     }
   });
+  $(window).scroll(function() {
+    if($(document).scrollTop() > 100) {
+      $('.navbar-toggle').addClass('resize');
+    } else {
+      $('.navbar-toggle').removeClass('resize');
+    }
+  });
 });

@@ -42,6 +42,7 @@ NAVBAR
 	color:#34b568;
 }
 
+
 .nav .shrink>li>a{
 	padding-top: 0px;
 	/*animation*/
@@ -92,8 +93,16 @@ NAVBAR
 	}
 
 /*============
-NAVBAR END
+Default Fonts
 =============*/
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 500;
+}
 
 /*==========
 HERO
@@ -159,5 +168,16 @@ MEDIA QUERY
 
 	.navbar-brand {
 		padding-top: 40px;
+	}
+
+	.small {
+		padding-top: 20px;
+	}
+
+	.resize {
+		margin-top: 10px;
+		/*animation*/
+		-webkit-transition: all 0.4s ease;
+   		transition: all 0.4s ease;
 	}
 }
