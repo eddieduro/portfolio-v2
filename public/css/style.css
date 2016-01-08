@@ -42,6 +42,29 @@ NAVBAR
 	color:#34b568;
 }
 
+.nav .shrink>li>a{
+	padding-top: 0px;
+	/*animation*/
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.small {
+	padding-top: 28px;
+	/*animation*/
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.shrink {
+	height: 50px; !important;
+}
+
+.nav{
+   /* Animation */
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
 	/*****
 	navbar toggle
 	****/
@@ -81,7 +104,49 @@ HERO
 	background-size: cover;
 	height: 600px;
 	width: 100%;
-	bottom: 20px;
+	top: 80px;
+}
+
+.flexbox {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.flex-container {
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.hero-text {
+	font-size: 60px;
+    color: #26834b;
+    font-weight: 500;
+}
+
+.hero-subtext {
+	color: #26834b;
+	font-weight: 300;
+}
+
+.hr-black {
+	width: 200px;
+	border-color: black;
+	border-width: 2px;
+}
+
+/*===========
+ABOUT
+=============*/
+.about {
+	padding-top: 80px;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	max-height: 400px;
+	max-width: 600px;
 }
 /*=========
 MEDIA QUERY
