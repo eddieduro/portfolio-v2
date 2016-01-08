@@ -1,0 +1,87 @@
+/*============
+NAVBAR
+=============*/
+.navbar-right {
+	padding-right: 2%;
+}
+
+.navbar-default {
+	background-color: black;
+	border: 0;
+}
+
+.navbar {
+	border-radius: 0px;
+	height: 100px;
+}
+
+.navbar-nav>li>a {
+	padding-top: 40px;
+	font-size: 14pt;
+}
+
+.navbar-default .navbar-nav>li>a  {
+	color: whitesmoke;
+}
+
+.navbar-default .navbar-nav>li>a:hover  {
+	color: #34b568;
+}
+
+.navbar-brand {
+	padding-top: 70px;
+	font-size: 16pt;
+}
+
+.navbar-default .navbar-brand {
+	color: whitesmoke;
+}
+
+
+.navbar-default .navbar-brand:hover {
+	color:#34b568;
+}
+
+	/*****
+	navbar toggle
+	****/
+
+	.navbar-toggle {
+		margin-top: 30px;
+	}
+
+	.navbar-default .navbar-toggle:hover {
+		background-color: #34b568;
+		border: 1px solid #26834b;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: whitesmoke;
+	}
+
+	.navbar-collapse{
+		margin-top: 28px;
+		text-align: center;
+	}
+
+	.navbar-default .navbar-nav .navbar-collapse>li>a {
+		color: green;
+	}
+
+/*============
+NAVBAR END
+=============*/
+
+/*=========
+MEDIA QUERY
+==========*/
+
+@media only screen and (max-width: 766px){
+	.collapsing, .in {
+		background-color: #3d3d3d;
+	}
+
+	.navbar-brand {
+		padding-top: 40px;
+	}
+}
