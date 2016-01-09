@@ -354,3 +354,8 @@ MEDIA QUERY
 		height: 500px;
 	}
 }
+
+@media (min-width: 768px)
+.col-sm-offset-2 {
+    margin-left: 12.66666667%;
+}
