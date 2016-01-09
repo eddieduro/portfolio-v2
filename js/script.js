@@ -17,20 +17,10 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
     if($(document).scrollTop() > 100) {
-      $('.collapse.in').addClass('collapse-position');
-    } else {
-      $('.collapse.in').removeClass('collapse-position');
-    }
-  }),
-
-  $(window).scroll(function() {
-    if($(document).scrollTop() > 100) {
       $('.navbar-toggle').addClass('resize');
     } else {
       $('.navbar-toggle').removeClass('resize');
     }
- 
   });
 });
-
 

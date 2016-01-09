@@ -2,7 +2,7 @@
 NAVBAR
 =============*/
 .navbar-right {
-	padding-right: 5.5%;
+	padding-right: 2%;
 }
 
 .navbar-default {
@@ -16,8 +16,7 @@ NAVBAR
 }
 
 .navbar-nav>li>a {
-	padding-top: 0px;
-	bottom: 40px;
+	padding-top: 40px;
 	font-size: 14pt;
 }
 
@@ -52,13 +51,13 @@ NAVBAR
 }
 
 .small {
-	padding-top: 30px;
+	padding-top: 28px;
 	/*animation*/
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
 .shrink {
-	height: 60px; !important;
+	height: 50px; !important;
 }
 
 .nav{
@@ -66,8 +65,6 @@ NAVBAR
    -webkit-transition: all 0.4s ease;
    transition: all 0.4s ease;
 }
-
-
 
 	/*****
 	navbar toggle
@@ -94,30 +91,17 @@ NAVBAR
 	.navbar-default .navbar-nav .navbar-collapse>li>a {
 		color: green;
 	}
-	.navbar-collapse.in {
-	    overflow-y: inherit;
-	    padding-top: 40px;
-	}
 
-	.navbar-collapse.in>li>a {
-		padding-bottom: 10px;
-	}
-
-	.collapse-position {
-		margin-top: 0px;
-	    padding-bottom: 15px;
-	}
 /*============
 Default Fonts
 =============*/
 h1, h2, h3 {
-	font-family: "acumin-pro",sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 p {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	font-size: 12pt;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 500;
 }
 
 /*==========
@@ -125,7 +109,7 @@ HERO
 ============*/
 .hero {
 	position: relative;
-	background:	url("../images/hero-img.jpeg") center no-repeat;
+	background:	url("images/hero-img.jpeg") center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 600px;
@@ -156,9 +140,6 @@ HERO
 	font-weight: 300;
 }
 
-.hero-right-text {
-	color: whitesmoke;
-}
 .hr-black {
 	width: 200px;
 	border-color: black;
@@ -168,33 +149,22 @@ HERO
 /*===========
 ABOUT
 =============*/
-#aboutHead{
-	padding-top: 40px;
-}
-
 .about {
 	padding-top: 80px;
-	padding-bottom: 100px;
 }
 
 .profile-pic {
-	border-radius: 40%;
+	border-radius: 50%;
 	max-height: 400px;
-	max-width: 400px;
+	max-width: 600px;
 }
 
-.main-text{
-	font-size: 14pt; 
-	padding-bottom: 40px;
-}
 /*===========
 WORK
 =============*/
 .work {
 	background-color: #464947;
 	margin-top: 20px;
-	padding-top: 40px;
-	padding-bottom: 60px;
 }
 
 .work h1 {
@@ -206,19 +176,11 @@ WORK
 }
 
 .projects {
-	padding-top: 70px;
-	margin: 4%;
-	padding-left: 8%;
+	padding-top: 5px;
 }
-
 
 .project-img {
 	cursor: pointer;
-}
-
-#project1 {
-	height: 250px;
-	width: 350px;
 }
 
 
@@ -257,40 +219,25 @@ WORK
  /*==========
  SKILLS
  ============*/
- #skillHead{
-	padding-top: 40px;
-}
  .dev-icon{
  	font-size: 50pt;
  	padding-left: 10%;
  	color: #3dc775;
-
  }
 
  #dev-div {
  	padding-top: 30px;
  	display: inline;
- 	padding-bottom: 60px;
  }
-
- .skills {
- 	padding-bottom: 100px;
- }
-
- 
 
 /*============
 CONNECT
 ==============*/
-
 .connect {
 	background-color: #464947;
-	height: 350px;	
+	height: 250px;	
 	width: 100%;
-	padding-top: 50px;
-    padding-bottom: 200px;
 }
-
 
 .connect h1 {
 	color: #34b568;
@@ -299,7 +246,7 @@ CONNECT
 .social-media {
 	font-size: 40pt;
 	padding-left: 20%;
-	padding-top: 40px;
+	padding-top: 20px;
 	cursor: pointer;
 }
 
@@ -355,9 +302,7 @@ html, body {
 	overflow-x: hidden; 
 }
 
-.row {
-	padding-top: 20px;
-}
+
 
 /*=========
 MEDIA QUERY
@@ -384,7 +329,7 @@ MEDIA QUERY
 	}
 
 	.projects {
-		margin-left: 15%;
+		margin-left: 20%;
 		margin-right: 15%;
 	}
 
@@ -393,45 +338,12 @@ MEDIA QUERY
 		margin-right: 30%;
 	}
 	
-	.skills {
-		padding-bottom: 20px;
-	}
-
-	.overlay{
-		/*height: 142px;
-		width:200px;*/
-		height: 70.5%;
-		width: 83.2%;
-	}
-	.navbar-nav>li>a {
-		bottom: 30px;
-		padding-top: none;
-	}
 }
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
 	.profile-pic {
-		margin-left: 18%;
+		margin-left: 25%;
 		margin-right: 20%;
-		height: 400px;
-		margin-bottom: 100px;
-		margin-top: 40px;
-	}
-	.dev-pad {
-		padding-bottom: 20px;
-	}
-
-	
-}
-
-@media (min-width: 768px) {
-	.col-sm-offset-2 {
-    	margin-left: 12.66666667%;
-	}
-}
-
-@media (min-width: 993px) {
-	.dev-pad {
- 	padding-bottom: 130px;
+		height: 500px;
 	}
 }
