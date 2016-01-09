@@ -228,6 +228,7 @@ WORK
  #dev-div {
  	padding-top: 30px;
  	display: inline;
+
  }
 
 /*============
@@ -338,6 +339,9 @@ MEDIA QUERY
 		margin-right: 30%;
 	}
 	
+	.skills {
+		padding-bottom: 20px;
+	}
 }
 
 @media only screen and (max-width: 992px) {
