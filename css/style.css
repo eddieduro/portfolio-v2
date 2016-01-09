@@ -109,7 +109,7 @@ HERO
 ============*/
 .hero {
 	position: relative;
-	background:	url("/images/hero-img.jpeg") center no-repeat;
+	background:	url("../images/hero-img.jpeg") center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 600px;
