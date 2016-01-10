@@ -17,6 +17,14 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
     if($(document).scrollTop() > 100) {
+      $('.collapse.in').addClass('collapse-position');
+    } else {
+      $('.navbar-collapse.in').removeClass('small');
+    }
+  }),
+
+  $(window).scroll(function() {
+    if($(document).scrollTop() > 100) {
       $('.navbar-toggle').addClass('resize');
     } else {
       $('.navbar-toggle').removeClass('resize');

@@ -94,12 +94,19 @@ NAVBAR
 	.navbar-default .navbar-nav .navbar-collapse>li>a {
 		color: green;
 	}
-
 	.navbar-collapse.in {
-    overflow-y: inherit;
-    padding-top: 40px;
+	    overflow-y: inherit;
+	    padding-top: 40px;
 	}
 
+	.navbar-collapse.in>li>a {
+		padding-bottom: 10px;
+	}
+
+	.collapse-position {
+		margin-top: 0px;
+	    padding-bottom: 15px;
+	}
 /*============
 Default Fonts
 =============*/
@@ -382,6 +389,10 @@ MEDIA QUERY
 		width:200px;*/
 		height: 67%;
 		width: 82%;
+	}
+	.navbar-nav>li>a {
+		bottom: 30px;
+		padding-top: none;
 	}
 }
 
