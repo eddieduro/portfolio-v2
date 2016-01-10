@@ -369,11 +369,18 @@ MEDIA QUERY
 	.skills {
 		padding-bottom: 20px;
 	}
+
+	.overlay{
+		/*height: 142px;
+		width:200px;*/
+		height: 67%;
+		width: 82%;
+	}
 }
 
 @media (max-width: 992px) {
 	.profile-pic {
-		margin-left: 25%;
+		margin-left: 18%;
 		margin-right: 20%;
 		height: 400px;
 		margin-bottom: 100px;
@@ -382,6 +389,8 @@ MEDIA QUERY
 	.dev-pad {
 		padding-bottom: 20px;
 	}
+
+	
 }
 
 @media (min-width: 768px) {
