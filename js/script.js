@@ -19,7 +19,7 @@ $(document).ready(function() {
     if($(document).scrollTop() > 100) {
       $('.collapse.in').addClass('collapse-position');
     } else {
-      $('.navbar-collapse.in').removeClass('small');
+      $('.collapse.in').removeClass('collapse-position');
     }
   }),
 
