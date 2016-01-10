@@ -5,7 +5,7 @@
 
 	<!-- Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 	<!-- Links -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -19,6 +19,7 @@
 	<div class="nav-stuff">
 		<div class="container">
 			<nav class="nav navbar navbar-default navbar-fixed-top">
+			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
 						<span class="sr-only">Toggle Nav</span>
@@ -28,7 +29,7 @@
 					</button>
 					<a class="navbar-brand" href="#">Eddie Duro</a>
 				</div>
-
+			</div>
 				<div class="collapse navbar-collapse" id="nav-collapse">	
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#about">About</a></li>
@@ -47,7 +48,7 @@
 			<div class="flex-container">
 				<h1 class="hero-text text-center">Eddie Duro</h1>
 				<hr class="hr-black">
-				<h3 class="hero-subtext text-center">Web Developer | Portland, OR.</h3>
+				<h3 class="hero-subtext text-center">Web Developer <span class="hero-right-text">| Portland, OR.</span></h3>
 			</div><!-- /.flex-container -->
 		</div><!-- /.flexbox -->
 	</div><!-- /.hero -->
@@ -79,7 +80,7 @@
 			<h1 class="text-center">Work</h1>
 			<hr class="hr-work">
 			<div class="row">
-				<div class="col-sm-5 col-lg-offset-2 projects">
+				<div class="col-sm-5 col-lg-offset-2 projects" id="left-project">
 					<div class="box">
 						<a><img src="http://placehold.it/350x250" alt="work" class="img-responsive project-img"></a>
 						<div class="overlay img-responsive" data-toggle="modal" data-target="#myModal">
@@ -93,7 +94,7 @@
 						</div><!-- /.overlay -->
 					</div><!-- /.box -->
 				</div>
-				<div class="col-sm-5 col-lg-offset-2 projects">
+				<div class="col-sm-5 col-lg-offset-2 projects" id="left-project">
 					<div class="box">
 						<a><img src="http://placehold.it/350x250" alt="work" class="img-responsive project-img"></a>
 						<div class="overlay img-responsive" data-toggle="modal" data-target="#myModal3">
@@ -225,26 +226,26 @@
 				</div>
 			
 				<div id="dev-icon">
-					<div class="col-sm-2 col-xs-2">
+					<div class="col-sm-2 col-xs-2 dev-pad">
 						<i class="devicon-html5-plain dev-icon"></i>
 					</div><!-- /.col -->
-					<div class="col-sm-2 col-xs-2">
+					<div class="col-sm-2 col-xs-2 dev-pad">
 						<i class="devicon-css3-plain dev-icon"></i>
 					</div><!-- /.col -->
 				</div>
 				<div id="dev-div">
-					<div class="col-sm-2 col-xs-2">
+					<div class="col-sm-2 col-xs-2 dev-pad">
 						<i class="devicon-git-plain dev-icon"></i>
 					</div><!-- /.col -->
-					<div class="col-sm-2 col-xs-2">
+					<div class="col-sm-2 col-xs-2 dev-pad">
 						<i class="devicon-bootstrap-plain dev-icon"></i>
 					</div><!-- /.col -->
 				</div>
 				<div  id="dev-div">
-					<div class="col-sm-2 col-xs-2">
+					<div class="col-sm-2 col-xs-2 dev-pad">
 						<i class="devicon-jquery-plain dev-icon"></i>
 					</div><!-- /.col -->
-					<div class="col-sm-2 col-xs-2">
+					<div class="col-sm-2 col-xs-2 dev-pad">
 						<i class="devicon-photoshop-plain dev-icon"></i>
 					</div><!-- /.col -->
 				</div>	
@@ -275,8 +276,7 @@
 				</div><!-- /.column -->
 			</div><!-- /.row-->
 		</div><!-- /.container -->
-	</div><!-- /.contact -->
-	</section>
+	</div><!-- /.connect -->
 	<!-- END CONNECT -->
 
 	<!-- FOOTER  -->

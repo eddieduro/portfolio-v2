@@ -16,7 +16,8 @@ NAVBAR
 }
 
 .navbar-nav>li>a {
-	padding-top: 40px;
+	padding-top: 0px;
+	bottom: 40px;
 	font-size: 14pt;
 }
 
@@ -57,7 +58,7 @@ NAVBAR
 	transition: all 0.4s ease;
 }
 .shrink {
-	height: 50px; !important;
+	height: 60px; !important;
 }
 
 .nav{
@@ -100,8 +101,8 @@ h1, h2, h3 {
 }
 
 p {
-	font-family: 'Alegreya Sans', sans-serif;
-	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 
 /*==========
@@ -140,6 +141,9 @@ HERO
 	font-weight: 300;
 }
 
+.hero-right-text {
+	color: whitesmoke;
+}
 .hr-black {
 	width: 200px;
 	border-color: black;
@@ -151,6 +155,7 @@ ABOUT
 =============*/
 .about {
 	padding-top: 80px;
+	padding-bottom: 100px;
 }
 
 .profile-pic {
@@ -161,6 +166,7 @@ ABOUT
 
 .main-text{
 	font-size: 14pt; 
+	padding-bottom: 40px;
 }
 /*===========
 WORK
@@ -168,6 +174,8 @@ WORK
 .work {
 	background-color: #464947;
 	margin-top: 20px;
+	padding-top: 40px;
+	padding-bottom: 60px;
 }
 
 .work h1 {
@@ -179,8 +187,11 @@ WORK
 }
 
 .projects {
-	padding-top: 5px;
+	padding-top: 70px;
+	margin: 4%;
+	padding-left: 8%;
 }
+
 
 .project-img {
 	cursor: pointer;
@@ -226,22 +237,32 @@ WORK
  	font-size: 50pt;
  	padding-left: 10%;
  	color: #3dc775;
+
  }
 
  #dev-div {
  	padding-top: 30px;
  	display: inline;
-
+ 	padding-bottom: 60px;
  }
+
+ .skills {
+ 	padding-bottom: 100px;
+ }
+
+ 
 
 /*============
 CONNECT
 ==============*/
 .connect {
 	background-color: #464947;
-	height: 250px;	
+	height: 350px;	
 	width: 100%;
+	padding-top: 50px;
+    padding-bottom: 200px;
 }
+
 
 .connect h1 {
 	color: #34b568;
@@ -250,7 +271,7 @@ CONNECT
 .social-media {
 	font-size: 40pt;
 	padding-left: 20%;
-	padding-top: 20px;
+	padding-top: 40px;
 	cursor: pointer;
 }
 
@@ -306,7 +327,9 @@ html, body {
 	overflow-x: hidden; 
 }
 
-
+.row {
+	padding-top: 20px;
+}
 
 /*=========
 MEDIA QUERY
@@ -353,9 +376,19 @@ MEDIA QUERY
 		margin-right: 20%;
 		height: 500px;
 	}
+	.dev-pad {
+		padding-bottom: 20px;
+	}
 }
 
-@media (min-width: 768px)
-.col-sm-offset-2 {
-    margin-left: 12.66666667%;
+@media (min-width: 768px) {
+	.col-sm-offset-2 {
+    	margin-left: 12.66666667%;
+	}
+}
+
+@media (min-width: 993px) {
+	.dev-pad {
+ 	padding-bottom: 130px;
+	}
 }
