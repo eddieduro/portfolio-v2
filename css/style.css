@@ -67,6 +67,8 @@ NAVBAR
    transition: all 0.4s ease;
 }
 
+
+
 	/*****
 	navbar toggle
 	****/
@@ -91,6 +93,11 @@ NAVBAR
 
 	.navbar-default .navbar-nav .navbar-collapse>li>a {
 		color: green;
+	}
+
+	.navbar-collapse.in {
+    overflow-y: inherit;
+    padding-top: 40px;
 	}
 
 /*============
