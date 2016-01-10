@@ -160,9 +160,9 @@ ABOUT
 }
 
 .profile-pic {
-	border-radius: 50%;
+	border-radius: 40%;
 	max-height: 400px;
-	max-width: 600px;
+	max-width: 400px;
 }
 
 .main-text{
@@ -371,11 +371,13 @@ MEDIA QUERY
 	}
 }
 
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
 	.profile-pic {
 		margin-left: 25%;
 		margin-right: 20%;
-		height: 500px;
+		height: 400px;
+		margin-bottom: 100px;
+		margin-top: 40px;
 	}
 	.dev-pad {
 		padding-bottom: 20px;
