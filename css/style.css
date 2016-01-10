@@ -371,7 +371,7 @@ MEDIA QUERY
 	}
 
 	.projects {
-		margin-left: 20%;
+		margin-left: 15%;
 		margin-right: 15%;
 	}
 
@@ -387,8 +387,8 @@ MEDIA QUERY
 	.overlay{
 		/*height: 142px;
 		width:200px;*/
-		height: 67%;
-		width: 82%;
+		height: 70.5%;
+		width: 83.2%;
 	}
 	.navbar-nav>li>a {
 		bottom: 30px;
