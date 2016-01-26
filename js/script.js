@@ -29,6 +29,8 @@ $(document).ready(function() {
     } else {
       $('.navbar-toggle').removeClass('resize');
     }
+ 
   });
 });
+
 
