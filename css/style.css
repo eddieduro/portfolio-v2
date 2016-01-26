@@ -109,7 +109,15 @@ HERO
 ============*/
 .hero {
 	position: relative;
+<<<<<<< HEAD
 	background:	url("images/hero-img.jpeg") center no-repeat;
+=======
+<<<<<<< HEAD
+	background:	url("../images/hero-img.jpeg") center no-repeat;
+=======
+	background:	url("images/hero-img.jpeg") center no-repeat;
+>>>>>>> b7651a5be551e2cf993118d73fa218d7e5c3c433
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 	background-size: cover;
 	background-attachment: fixed;
 	height: 600px;
@@ -228,6 +236,13 @@ WORK
  #dev-div {
  	padding-top: 30px;
  	display: inline;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> b7651a5be551e2cf993118d73fa218d7e5c3c433
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
  }
 
 /*============
@@ -338,6 +353,15 @@ MEDIA QUERY
 		margin-right: 30%;
 	}
 	
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+	.skills {
+		padding-bottom: 20px;
+	}
+=======
+>>>>>>> b7651a5be551e2cf993118d73fa218d7e5c3c433
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 }
 
 @media only screen and (max-width: 992px) {

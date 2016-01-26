@@ -2,7 +2,11 @@
 NAVBAR
 =============*/
 .navbar-right {
+<<<<<<< HEAD
 	padding-right: 5.5%;
+=======
+	padding-right: 2%;
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 }
 
 .navbar-default {
@@ -16,8 +20,12 @@ NAVBAR
 }
 
 .navbar-nav>li>a {
+<<<<<<< HEAD
 	padding-top: 0px;
 	bottom: 40px;
+=======
+	padding-top: 40px;
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 	font-size: 14pt;
 }
 
@@ -52,13 +60,21 @@ NAVBAR
 }
 
 .small {
+<<<<<<< HEAD
 	padding-top: 30px;
+=======
+	padding-top: 28px;
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 	/*animation*/
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
 .shrink {
+<<<<<<< HEAD
 	height: 60px; !important;
+=======
+	height: 50px; !important;
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 }
 
 .nav{
@@ -67,8 +83,11 @@ NAVBAR
    transition: all 0.4s ease;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 	/*****
 	navbar toggle
 	****/
@@ -94,6 +113,7 @@ NAVBAR
 	.navbar-default .navbar-nav .navbar-collapse>li>a {
 		color: green;
 	}
+<<<<<<< HEAD
 	.navbar-collapse.in {
 	    overflow-y: inherit;
 	    padding-top: 40px;
@@ -107,10 +127,14 @@ NAVBAR
 		margin-top: 0px;
 	    padding-bottom: 15px;
 	}
+=======
+
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 /*============
 Default Fonts
 =============*/
 h1, h2, h3 {
+<<<<<<< HEAD
 	font-family: "acumin-pro",sans-serif;
 }
 
@@ -118,6 +142,14 @@ p {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 12pt;
+=======
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 500;
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 }
 
 /*==========
@@ -156,9 +188,12 @@ HERO
 	font-weight: 300;
 }
 
+<<<<<<< HEAD
 .hero-right-text {
 	color: whitesmoke;
 }
+=======
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 .hr-black {
 	width: 200px;
 	border-color: black;
@@ -168,6 +203,7 @@ HERO
 /*===========
 ABOUT
 =============*/
+<<<<<<< HEAD
 #aboutHead{
 	padding-top: 40px;
 }
@@ -187,14 +223,29 @@ ABOUT
 	font-size: 14pt; 
 	padding-bottom: 40px;
 }
+=======
+.about {
+	padding-top: 80px;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	max-height: 400px;
+	max-width: 600px;
+}
+
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 /*===========
 WORK
 =============*/
 .work {
 	background-color: #464947;
 	margin-top: 20px;
+<<<<<<< HEAD
 	padding-top: 40px;
 	padding-bottom: 60px;
+=======
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 }
 
 .work h1 {
@@ -206,21 +257,30 @@ WORK
 }
 
 .projects {
+<<<<<<< HEAD
 	padding-top: 70px;
 	margin: 4%;
 	padding-left: 8%;
 }
 
 
+=======
+	padding-top: 5px;
+}
+
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 .project-img {
 	cursor: pointer;
 }
 
+<<<<<<< HEAD
 #project1 {
 	height: 250px;
 	width: 350px;
 }
 
+=======
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 
 .overlay {  
 	display: inline-block;
@@ -257,19 +317,26 @@ WORK
  /*==========
  SKILLS
  ============*/
+<<<<<<< HEAD
  #skillHead{
 	padding-top: 40px;
 }
+=======
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
  .dev-icon{
  	font-size: 50pt;
  	padding-left: 10%;
  	color: #3dc775;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
  }
 
  #dev-div {
  	padding-top: 30px;
  	display: inline;
+<<<<<<< HEAD
  	padding-bottom: 60px;
  }
 
@@ -292,6 +359,20 @@ CONNECT
 }
 
 
+=======
+
+ }
+
+/*============
+CONNECT
+==============*/
+.connect {
+	background-color: #464947;
+	height: 250px;	
+	width: 100%;
+}
+
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 .connect h1 {
 	color: #34b568;
 }
@@ -299,7 +380,11 @@ CONNECT
 .social-media {
 	font-size: 40pt;
 	padding-left: 20%;
+<<<<<<< HEAD
 	padding-top: 40px;
+=======
+	padding-top: 20px;
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 	cursor: pointer;
 }
 
@@ -355,9 +440,13 @@ html, body {
 	overflow-x: hidden; 
 }
 
+<<<<<<< HEAD
 .row {
 	padding-top: 20px;
 }
+=======
+
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 
 /*=========
 MEDIA QUERY
@@ -384,7 +473,11 @@ MEDIA QUERY
 	}
 
 	.projects {
+<<<<<<< HEAD
 		margin-left: 15%;
+=======
+		margin-left: 20%;
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 		margin-right: 15%;
 	}
 
@@ -396,6 +489,7 @@ MEDIA QUERY
 	.skills {
 		padding-bottom: 20px;
 	}
+<<<<<<< HEAD
 
 	.overlay{
 		/*height: 142px;
@@ -433,5 +527,14 @@ MEDIA QUERY
 @media (min-width: 993px) {
 	.dev-pad {
  	padding-bottom: 130px;
+=======
+}
+
+@media only screen and (max-width: 992px) {
+	.profile-pic {
+		margin-left: 25%;
+		margin-right: 20%;
+		height: 500px;
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 	}
 }

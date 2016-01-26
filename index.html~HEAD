@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+=======
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 	<title>Eddie Duro | Portfolio</title>
 
 	<!-- Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<<<<<<< HEAD
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 	<script src="https://use.typekit.net/ogo3phr.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+=======
+	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 	<!-- Links -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -22,7 +30,10 @@
 	<div class="nav-stuff">
 		<div class="container">
 			<nav class="nav navbar navbar-default navbar-fixed-top">
+<<<<<<< HEAD
 			<div class="container">
+=======
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
 						<span class="sr-only">Toggle Nav</span>
@@ -32,7 +43,11 @@
 					</button>
 					<a class="navbar-brand" href="#">Eddie Duro</a>
 				</div>
+<<<<<<< HEAD
 			</div>
+=======
+
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 				<div class="collapse navbar-collapse" id="nav-collapse">	
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#about">About</a></li>
@@ -51,7 +66,11 @@
 			<div class="flex-container">
 				<h1 class="hero-text text-center">Eddie Duro</h1>
 				<hr class="hr-black">
+<<<<<<< HEAD
 				<h3 class="hero-subtext text-center">Web Developer <span class="hero-right-text">| Portland, OR.</span></h3>
+=======
+				<h3 class="hero-subtext text-center">Web Developer | Portland, OR.</h3>
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 			</div><!-- /.flex-container -->
 		</div><!-- /.flexbox -->
 	</div><!-- /.hero -->
@@ -61,15 +80,24 @@
 	<div class="about">
 		<a id="about"></a><!-- /.link -->
 		<div class="container">
+<<<<<<< HEAD
 			<h1 class="text-center" id="aboutHead">About</h1>
+=======
+			<h1 class="text-center">About</h1>
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 			<hr>
 			<div class="row">
 				<div class="col-md-4 col-md-offset-1">
 					<img src="images/profile-pic.jpg" alt="Profile Pic" class="img-responsive profile-pic">
 				</div>
 				<div class="col-md-5 col-md-offset-2">
+<<<<<<< HEAD
 					<p class="main-text">My name is Edward Duro - my friends call me; Eddie, Edward, James, Edweird, Edword, the list goes-on... But you can call me whatever you would like. I'm a mid-20 something year old living in Portland, OR (Yes it's true things can be quite weird here). </p>
 					<p class="main-text">I am on the path to becoming a full-stack developer. Creating things is my passion whether it's code, music, art, or food - you can be sure I'll be putting all my effort into it. Thats what life is all about right?!</p>
+=======
+					<p>Bacon ipsum dolor amet beef ribs andouille chicken tenderloin. Pancetta chicken swine, short ribs rump doner meatball porchetta spare ribs ham. Shoulder fatback landjaeger pork belly short ribs rump frankfurter ground round chicken hamburger. Chuck tri-tip beef ribs picanha corned beef.</p>
+					<p>Reprehenderit pig velit tenderloin tongue in voluptate strip steak turducken salami minim chuck eiusmod hamburger irure. Kielbasa voluptate pastrami tail drumstick shankle corned beef chicken meatball tempor boudin salami.</p>
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 				</div>
 			</div><!-- /.row -->
 		</div><!-- /.container -->
@@ -83,9 +111,15 @@
 			<h1 class="text-center">Work</h1>
 			<hr class="hr-work">
 			<div class="row">
+<<<<<<< HEAD
 				<div class="col-sm-5 col-lg-offset-2 projects" id="left-project">
 					<div class="box">
 						<a><img src="images/project1.png" alt="work" class="img-responsive project-img" id="project1"></a>
+=======
+				<div class="col-sm-6 col-lg-offset-1 projects">
+					<div class="box">
+						<a><img src="http://placehold.it/350x250" alt="work" class="img-responsive project-img"></a>
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 						<div class="overlay img-responsive" data-toggle="modal" data-target="#myModal">
 						</div><!-- /.overlay -->
 					</div><!-- /.box -->
@@ -97,7 +131,11 @@
 						</div><!-- /.overlay -->
 					</div><!-- /.box -->
 				</div>
+<<<<<<< HEAD
 				<div class="col-sm-5 col-lg-offset-2 projects" id="left-project">
+=======
+				<div class="col-sm-6 col-lg-offset-1 projects">
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 					<div class="box">
 						<a><img src="http://placehold.it/350x250" alt="work" class="img-responsive project-img"></a>
 						<div class="overlay img-responsive" data-toggle="modal" data-target="#myModal3">
@@ -121,11 +159,16 @@
 					<!-- modal header  -->
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+<<<<<<< HEAD
 						<h3 class="modal-title">To-Do List</h3>
+=======
+						<h3 class="modal-title">Project 1</h3>
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 					</div>
 					<!-- end modal header -->
 					<!-- modal body -->
 					<div class="modal-body">
+<<<<<<< HEAD
 						<h4>1/25/2016</h4>
 						<hr>
 						<ul>
@@ -143,6 +186,15 @@
 						<p>This project was created using the skills above. It was our task to develop the unit testing with mocha and chai. We also showcased object oriented development.</p>
 						<br>
 						<p><a href="http://eddieduro.github.io/ToDo-List/">Check it out here!</a></p>
+=======
+						<h4>Example</h4>
+						<hr>
+						<ul>
+							<li>skill1</li>
+							<li>skill2</li>
+							<li>skill3</li>
+						</ul>
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 					</div><!-- /.modal-body-->
 				</div> <!-- /.modal-content -->
 			</div> <!-- /.modal-dialog -->
@@ -230,6 +282,7 @@
 	<div class="skills">
 		<a id="skills"></a><!-- /.link -->
 		<div class="container">
+<<<<<<< HEAD
 			<h1 class="text-center" id="skillHead">Skills</h1>
 			<hr>
 			<div class="row">
@@ -243,22 +296,51 @@
 						<i class="devicon-html5-plain dev-icon"></i>
 					</div><!-- /.col -->
 					<div class="col-sm-2 col-xs-4 dev-pad">
+=======
+			<h1 class="text-center">Skills</h1>
+			<hr>
+			<div class="row">
+				<div class="col-md-4">
+					<p>Bacon ipsum dolor amet beef ribs andouille chicken tenderloin. Pancetta chicken swine, short ribs rump doner meatball porchetta spare ribs ham. Shoulder fatback landjaeger pork belly short ribs rump frankfurter ground round chicken hamburger. Chuck tri-tip beef ribs picanha corned beef.</p>
+					<p>Reprehenderit pig velit tenderloin tongue in voluptate strip steak turducken salami minim chuck eiusmod hamburger irure. Kielbasa voluptate pastrami tail drumstick shankle corned beef chicken meatball tempor boudin salami.</p>
+				</div>
+			
+				<div id="dev-icon">
+					<div class="col-sm-2 col-xs-2">
+						<i class="devicon-html5-plain dev-icon"></i>
+					</div><!-- /.col -->
+					<div class="col-sm-2 col-xs-2">
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 						<i class="devicon-css3-plain dev-icon"></i>
 					</div><!-- /.col -->
 				</div>
 				<div id="dev-div">
+<<<<<<< HEAD
 					<div class="col-sm-2 col-xs-4 dev-pad">
 						<i class="devicon-git-plain dev-icon"></i>
 					</div><!-- /.col -->
 					<div class="col-sm-2 col-xs-4 dev-pad">
+=======
+					<div class="col-sm-2 col-xs-2">
+						<i class="devicon-git-plain dev-icon"></i>
+					</div><!-- /.col -->
+					<div class="col-sm-2 col-xs-2">
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 						<i class="devicon-bootstrap-plain dev-icon"></i>
 					</div><!-- /.col -->
 				</div>
 				<div  id="dev-div">
+<<<<<<< HEAD
 					<div class="col-sm-2 col-xs-4 dev-pad">
 						<i class="devicon-jquery-plain dev-icon"></i>
 					</div><!-- /.col -->
 					<div class="col-sm-2 col-xs-4 dev-pad">
+=======
+					<div class="col-sm-2 col-xs-2">
+						<i class="devicon-jquery-plain dev-icon"></i>
+					</div><!-- /.col -->
+					<div class="col-sm-2 col-xs-2">
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 						<i class="devicon-photoshop-plain dev-icon"></i>
 					</div><!-- /.col -->
 				</div>	
@@ -289,7 +371,12 @@
 				</div><!-- /.column -->
 			</div><!-- /.row-->
 		</div><!-- /.container -->
+<<<<<<< HEAD
 	</div><!-- /.connect -->
+=======
+	</div><!-- /.contact -->
+	</section>
+>>>>>>> 98e1c4910549220dfac2782f3742ab7426ef8685
 	<!-- END CONNECT -->
 
 	<!-- FOOTER  -->
