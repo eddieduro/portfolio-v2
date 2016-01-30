@@ -127,7 +127,7 @@ HERO
 	position: relative;
 	background:	url("../images/hero-img.jpeg") center no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+/*	background-attachment: fixed;*/
 	height: 600px;
 	width: 100%;
 	top: 80px;
@@ -221,7 +221,10 @@ WORK
 	width: 350px;
 }
 
-
+#project2 {
+	height: 250px;
+	width: 350px;
+}
 .overlay {  
 	display: inline-block;
     height: 250px;
@@ -254,6 +257,9 @@ WORK
     top:40%;
  }
 
+.modal {
+	top: 30px;
+}
  /*==========
  SKILLS
  ============*/
@@ -396,7 +402,15 @@ MEDIA QUERY
 	.skills {
 		padding-bottom: 20px;
 	}
+	#project1 {
+		height: 167px;
+		width: 350px;
+	}
 
+#project2 {
+		height: 167px;
+		width: 350px;
+	}
 	.overlay{
 		/*height: 142px;
 		width:200px;*/
