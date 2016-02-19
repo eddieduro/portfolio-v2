@@ -111,7 +111,7 @@ NAVBAR
 Default Fonts
 =============*/
 h1, h2, h3 {
-	font-family: "acumin-pro",sans-serif;
+	font-family: 'Catamaran', sans-serif;
 }
 
 p {
@@ -146,13 +146,15 @@ HERO
 	justify-content: center;
 }
 .hero-text {
-	font-size: 60px;
+	font-size: 72px;
+	font-weight: 600;
     color: #26834b;
     font-weight: 500;
 }
 
 .hero-subtext {
 	color: #26834b;
+	font-weight: 600;
 	font-weight: 300;
 }
 
@@ -162,7 +164,7 @@ HERO
 .hr-black {
 	width: 200px;
 	border-color: black;
-	border-width: 2px;
+	border-width: 4px;
 }
 
 /*===========
