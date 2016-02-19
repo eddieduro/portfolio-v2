@@ -26,7 +26,7 @@ NAVBAR
 }
 
 .navbar-default .navbar-nav>li>a:hover  {
-	color: #34b568;
+	color: #5e4ceb;
 }
 
 .navbar-brand {
@@ -40,7 +40,7 @@ NAVBAR
 
 
 .navbar-default .navbar-brand:hover {
-	color:#34b568;
+	color: #5e4ceb;
 }
 
 
@@ -125,7 +125,7 @@ HERO
 ============*/
 .hero {
 	position: relative;
-	background:	url("../images/hero-img.jpeg") center no-repeat;
+	background:	url("../images/geoheroz.png") center no-repeat;
 	background-size: cover;
 /*	background-attachment: fixed;*/
 	height: 600px;
@@ -148,12 +148,12 @@ HERO
 .hero-text {
 	font-size: 72px;
 	font-weight: 600;
-    color: #26834b;
+    color: #fff;
     font-weight: 500;
 }
 
 .hero-subtext {
-	color: #26834b;
+	color: #fff;
 	font-weight: 600;
 	font-weight: 300;
 }
@@ -172,6 +172,9 @@ ABOUT
 =============*/
 #aboutHead{
 	padding-top: 40px;
+	font-weight: bold;
+	font-size: 50px;
+
 }
 
 .about {
@@ -200,7 +203,9 @@ WORK
 }
 
 .work h1 {
-	color: #34b568;
+	color: #a096f3;
+	font-weight: bold;
+	font-size: 50px;
 }
 
 .hr-work {
@@ -270,11 +275,13 @@ WORK
  ============*/
  #skillHead{
 	padding-top: 40px;
+	font-size: 50px;
+	font-weight: bold;
 }
  .dev-icon{
  	font-size: 50pt;
  	padding-left: 10%;
- 	color: #3dc775;
+ 	color: #a096f3;
 
  }
 
@@ -304,7 +311,9 @@ CONNECT
 
 
 .connect h1 {
-	color: #34b568;
+	color: #a096f3;
+	font-size: 50px;
+	font-weight: bold;
 }
 
 .social-media {
