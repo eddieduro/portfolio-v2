@@ -128,7 +128,7 @@ HERO
 	background:	url("../images/geoheroz.png") center no-repeat;
 	background-size: cover;
 /*	background-attachment: fixed;*/
-	height: 600px;
+	height: 750px;
 	width: 100%;
 	top: 80px;
 }
@@ -269,6 +269,10 @@ WORK
 
 .modal {
 	top: 30px;
+}
+
+.hideme {
+	visibility: hidden;
 }
  /*==========
  SKILLS
