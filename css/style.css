@@ -184,7 +184,7 @@ ABOUT
 }
 
 .main-text{
-	font-size: 14pt; 
+	font-size: 14pt;
 	padding-bottom: 40px;
 }
 /*===========
@@ -205,11 +205,11 @@ WORK
 	width: 99%;
 }
 
-.projects {
+/*.projects {
 	padding-top: 70px;
 	margin: 4%;
 	padding-left: 8%;
-}
+}*/
 
 
 .project-img {
@@ -217,15 +217,22 @@ WORK
 }
 
 #project1 {
-	height: 250px;
+	max-height: 250px;
+	height: 235px;
 	width: 350px;
 }
 
 #project2 {
-	height: 250px;
+	height: 235px;
+	max-height: 250px;
 	width: 350px;
 }
-.overlay {  
+#project3 {
+	height: 235px;
+	max-height: 250px;
+	width: 350px;
+}
+.overlay {
 	display: inline-block;
     height: 250px;
     width: 350px;
@@ -238,7 +245,7 @@ WORK
 	-moz-transition: opacity .25s ease;
 	cursor: pointer;
 }
-	
+
 
 .projects:hover .overlay {
 	position: absolute;
@@ -283,7 +290,7 @@ WORK
  	padding-bottom: 100px;
  }
 
- 
+
 
 /*============
 CONNECT
@@ -291,7 +298,7 @@ CONNECT
 
 .connect {
 	background-color: #464947;
-	height: 350px;	
+	height: 350px;
 	width: 100%;
 	padding-top: 50px;
     padding-bottom: 200px;
@@ -358,7 +365,7 @@ footer {
 HTML
 ===========*/
 html, body {
-	overflow-x: hidden; 
+	overflow-x: hidden;
 }
 
 .row {
@@ -389,34 +396,28 @@ MEDIA QUERY
    		transition: all 0.4s ease;
 	}
 
-	.projects {
-		margin-left: 15%;
-		margin-right: 15%;
-	}
+
 
 	.profile-pic {
 		max-height: 300px;
 		margin-right: 30%;
 	}
-	
+
 	.skills {
 		padding-bottom: 20px;
 	}
-	#project1 {
+	/*#project1 {
 		height: 167px;
 		width: 350px;
 	}
 
-#project2 {
-		height: 167px;
-		width: 350px;
-	}
-	.overlay{
+	#project2 {
+		padding-left: 10
+	}*/
+	/*.overlay{
 		/*height: 142px;
 		width:200px;*/
-		height: 70.5%;
-		width: 83.2%;
-	}
+
 	.navbar-nav>li>a {
 		bottom: 30px;
 		padding-top: none;
@@ -435,7 +436,7 @@ MEDIA QUERY
 		padding-bottom: 20px;
 	}
 
-	
+
 }
 
 @media (min-width: 768px) {
