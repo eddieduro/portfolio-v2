@@ -15,11 +15,6 @@ $(document).ready(function() {
 			$('.projects-right').addClass('animated fadeInRightBig');
 			$('.projects-left').removeClass('hideme');
 			$('.projects-right').removeClass('hideme');
-		} else {
-			$('.projects-left').addClass('hideme');
-			$('.projects-right').addClass('hideme');
-			$('.projects-right').removeClass('animated fadeInRightBig');
-			$('.projects-left').removeClass('animated fadeInLeftBig');
-		}
+		} 
 	});
 });
