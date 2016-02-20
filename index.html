@@ -68,7 +68,7 @@
 					<img src="images/edwardduro.png" alt="Profile Pic" class="img-responsive profile-pic">
 				</div>
 				<div class="col-md-5 col-md-offset-2">
-					<p class="main-text">My name is Edward or Eddie Duro. Maybe as I get older I'll just go by ED but anywho, I'm a mid-20 something year old living in Portland, OR (Yes it's true things can be quite weird here). I'm a self proclaimed Oregonian and coffee enthusiast. </p>
+					<p class="main-text">My name is Edward or Eddie Duro. Maybe as I get older I'll just go by ED but anywho, I'm a mid-20 something year old living in Portland, OR (Yes it's true things can be quite weird here). I'm a self proclaimed Oregonian and coffee enthusiast. I enjoy the finer things in life - like micro brews and local eateries. Local community means a lot to me so you can catch me most meet ups on <a href="http://calagator.org">calagator.org</a></p>
 					<p class="main-text">Creating things is my passion whether it's software, websites, music, art, or food - you can be sure I'll be putting all my effort into it. If it's not worth putting all your effort into it what's the point.</p>
 				</div>
 			</div><!-- /.row -->
@@ -315,16 +315,52 @@
 		</div><!-- /.container -->
 	</div><!-- /.connect -->
 	<!-- END CONNECT -->
-
-	<!-- FOOTER  -->
-	<div class="footer-bg"></div>
-	<div class="footer">
-		<div class="container footer-div">
-			<footer>
-				<p class="footer-text text-right">Made with <i class="glyphicon glyphicon-heart" id="heart"></i> by Eddie Duro.</p>
-			</footer>
+	<!-- CONTACT FORM-->
+	<div class="contact">
+		<a id="contact"></a><!-- /.link -->
+		<div class="container">
+		<h1 class="text-center">Contact Me</h1>
+			<hr>
+			<form class="col-md-12" method="post" action="send_form_email.php">
+				<div class='row'>
+					<div class="col-sm-12">
+						<label for='first_name'>First Name:</label>
+						<input name='first_name'  class="form-control" id='first_name' type='text'>
+					</div>
+					<div class="col-sm-12">
+						<label for='last_name'>Last Name:</label>
+						<input name='last_name'  class="form-control" id='last_name' type='text'>
+					</div>
+					<div class="col-sm-12">
+						<label for='email'>Email:</label>
+						<input name='email'  class="form-control" id='email' type='email'>
+					</div>
+					<div class="col-sm-12">
+						<label for='phone'>Phone:</label>
+						<input name='phone'  class="form-control" id='phone' type='phone'>
+					</div>
+					<div class="col-sm-12">
+						<label for='comments'>Comment:</label>
+						<textarea class="form-control" name="comments" rows="3"></textarea>
+					</div>
+				</div>
+				<div class='text-center'>
+					<button type='submit' class='btn contact-btn'>Submit</button>
+				</div>
+				
+			</form>
 		</div>
 	</div>
+	<!-- END CONTACT FORM -->
+	<!-- FOOTER  -->
+	<div class="footer-bg"></div>
+	<footer>
+		<div class="footer">
+			<div class="container footer-div">
+				<p class="footer-text text-right">Made with <i class="glyphicon glyphicon-heart" id="heart"></i> by Eddie Duro.</p>
+			</div>
+		</div>
+	</footer>
 	<!-- END FOOTER -->
 	<!-- Scripts -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
