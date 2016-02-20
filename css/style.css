@@ -463,6 +463,12 @@ MEDIA QUERY
 		bottom: 30px;
 		padding-top: none;
 	}
+	.social-media {
+	font-size: 40pt;
+	padding-left: 20%;
+	padding-top: 40px;
+	cursor: pointer;
+	}
 }
 
 @media (max-width: 992px) {
