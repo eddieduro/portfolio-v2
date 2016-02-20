@@ -127,7 +127,7 @@ HERO
 ============*/
 .hero {
 	position: relative;
-	background:	url("../images/geoheroz-min.png") center no-repeat;
+	background:	url("../images/geohero-small.jpg") center no-repeat;
 	background-size: cover;
 /*	background-attachment: fixed;*/
 	height: 750px;
