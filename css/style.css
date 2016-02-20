@@ -323,14 +323,14 @@ CONNECT
 }
 
 .social-media {
-	font-size: 40pt;
+	font-size: 60pt;
 	padding-left: 20%;
 	padding-top: 40px;
 	cursor: pointer;
 }
 
 .social-link {
-	color: #333;
+	color: #222;
 }
 
 #twitter:hover {
