@@ -142,7 +142,7 @@ HERO
 	justify-content: center;
 }
 .flex-container {
-	height: 550px;
+	height: 750px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
