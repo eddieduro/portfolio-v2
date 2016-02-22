@@ -419,7 +419,9 @@ success page
 /*==========
 HTML
 ===========*/
-
+body {
+	overflow-x: hidden;
+}
 
 .row {
 	padding-top: 20px;
