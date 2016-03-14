@@ -91,6 +91,7 @@ NAVBAR
 	.navbar-collapse{
 		text-align: center;
 		height: 200px;
+		border: 0px;
 	}
 
 	.navbar-default .navbar-nav .navbar-collapse>li>a {
@@ -103,6 +104,10 @@ NAVBAR
 
 	.navbar-collapse.in>li>a {
 		padding-bottom: 10px;
+	}
+
+	.navbar-nav>li>a{
+		margin-top: 4px;
 	}
 
 	.collapse-position {
