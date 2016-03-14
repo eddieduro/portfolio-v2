@@ -89,8 +89,8 @@ NAVBAR
 	}
 
 	.navbar-collapse{
-		margin-top: 28px;
 		text-align: center;
+		height: 200px;
 	}
 
 	.navbar-default .navbar-nav .navbar-collapse>li>a {
