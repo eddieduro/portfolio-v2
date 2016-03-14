@@ -15,6 +15,16 @@ $(document).ready(function() {
 			$('.projects-right').addClass('animated fadeInRightBig');
 			$('.projects-left').removeClass('hideme');
 			$('.projects-right').removeClass('hideme');
-		} 
+		} 		
+	});
+
+	$('.social-media').hover(function(){
+		$(this).addClass('animated pulse');
+	}, function(){
+		$(this).removeClass('animated pulse');
+	});
+
+	$('btn').click(function(){
+		$(this).addClass('animated pulse');
 	});
 });
