@@ -505,7 +505,7 @@ MEDIA QUERY
 	}
 
 	.navbar-nav>li>a {
-		bottom: 10px;
+		bottom: 20px;
 		padding-top: none;
 	}
 }
