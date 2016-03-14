@@ -503,6 +503,11 @@ MEDIA QUERY
 	.dev-pad {
  	padding-bottom: 130px;
 	}
+
+	.navbar-nav>li>a {
+		bottom: 10px;
+		padding-top: none;
+	}
 }
 
 @media only screen and (max-width : 768px) {
